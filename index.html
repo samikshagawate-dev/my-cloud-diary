@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cloud Diary</title>
+    <title>My Personal Diary</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
             <h2 id="currentDate">Loading Date...</h2>
             <div class="controls">
                 <input type="color" id="bgColorPicker" value="#ffffff">
-                <button onclick="saveDiary()">Save to Cloud</button>
+                <button onclick="saveDiary()">Save to Computer</button>
             </div>
         </header>
 
@@ -24,7 +24,7 @@
                 </div>
                 <hr>
                 <div id="historyList">
-                    <p>Loading entries...</p>
+                    <p>Entries will appear here...</p>
                 </div>
             </aside>
 
@@ -33,9 +33,6 @@
             </div>
         </div>
     </div>
-
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore-compat.js"></script>
 
     <script src="script.js"></script>
 </body>
