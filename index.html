@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Creative Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="diary-container" id="diaryPage">
+        <header>
+            <h2 id="currentDate"></h2>
+            <div class="controls">
+                <input type="color" id="bgColorPicker" value="#ffffff">
+                <button onclick="saveDiary()">Save Entry</button>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <aside class="sticker-box">
+                <p>Stickers</p>
+                <div id="stickerPalette">
+                    <span>⭐</span> <span>❤️</span> <span>🎨</span> <span>🦄</span> <span>🚀</span> <span>🌸</span>
+                </div>
+            </aside>
+
+            <div class="canvas" id="canvas">
+                <textarea id="diaryText" placeholder="Start writing your story..."></textarea>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+<hr>
+<div id="historyList">
+    </div>
+</body>
+</html>
